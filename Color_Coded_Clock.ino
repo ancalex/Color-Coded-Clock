@@ -218,7 +218,7 @@ void loop() {
 	debouncer2.update();
 	if ( debouncer2.fell() ) {
 		Serial.println("Button 2 pressed");
-		if (config.ColorSet < 6) {
+		if (config.ColorSet < 7) {
 			config.ColorSet++;
 		}
 		else {
